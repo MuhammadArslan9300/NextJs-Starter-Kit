@@ -1,27 +1,11 @@
 import { notFound } from "next/navigation";
-import { Locale, hasLocale, NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import {  hasLocale, NextIntlClientProvider } from "next-intl";
+import {  setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Noto_Nastaliq_Urdu } from "next/font/google";
-import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-const notoNastaliqUrdu = Noto_Nastaliq_Urdu({
-  variable: "--font-noto-nastaliq-urdu",
-  subsets: ["arabic"], // ✅ Urdu uses Arabic script
-  weight: ["400"], // Only weight available for this font
-  display: "swap", // Improves performance
-});
+import ScrollToTop from "@/components/global/ScrollToTop";
+import Banner from "@/components/shared/Banner";
 
 
 export const metadata: Metadata = {
@@ -38,20 +22,12 @@ export default async function LocaleLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
-const fontClass =
-    locale === "ur"
-      ? `${notoNastaliqUrdu.variable}`
-      : `${geistSans.variable} ${geistMono.variable}`;
-  // Enable static rendering
+  
   setRequestLocale(locale);
   return (
-    <html lang={locale} dir={locale === "ur" ? "rtl" : "ltr"}>
-      <body
-        className={`${fontClass} antialiased`}
-      >
-        {" "}
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale}>
+      <Banner />
+      <ScrollToTop /> {children}
+    </NextIntlClientProvider>
   );
 }

@@ -5,9 +5,18 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin({
   experimental: {
     createMessagesDeclaration: './messages/en.json'
-  }
+  },
 });
 
-const config: NextConfig = {};
+const config: NextConfig = {
+  images: {
+     remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+  }
+};
 
 export default withNextIntl(config);

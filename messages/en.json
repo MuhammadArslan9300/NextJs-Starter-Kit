@@ -1,4 +1,420 @@
 {
+  "heroSection": {
+    "title": "Clear <brand>{examName}</brand> exam with PYQ-based Tests, Notes & Videos",
+
+    "subtitle": "Practice with real exam-level questions, sectional tests & full-length papers — all in one place.",
+    "titleCourse": "Clear <brand>{examName}</brand> exam with PYQ-based Tests, Notes & Videos",
+
+    "subtitleCourse": "Practice with real exam-level questions, sectional tests & full-length papers — all in one place.",
+
+    "cta": {
+      "primary": "Continue Free Preparation",
+      "badge": "{trialDays}-day FREE Trial",
+      "note": "No card or payment required"
+    },
+
+    "rating": {
+      "value": "{rating}",
+      "text": "Average rating by our students"
+    }
+  },
+  "featureSection": {
+    "header": {
+      "eyebrow": "Preparation for Exam Anytime & Anywhere",
+      "title": "Everything you need to <brand>clear exam</brand>",
+      "subtitle": "All You Need to Prepare, Practice & Succeed — Videos, Notes & Tests for All Subjects"
+    },
+
+    "features": {
+      "practice": {
+        "title": "Practice with PYQs, Notes and Videos",
+        "description": "You can practice with PYQs, make important topics with notes and watch videos of difficult topics as per latest syllabus"
+      },
+      "languages": {
+        "title": "YouTube's Favorite Teachers",
+        "description": "Learn with your favorite teachers teaching in Hindi or English, watch easily from gurus you already trust"
+      },
+      "free": {
+        "title": "Try for FREE",
+        "description": "Use all features free in trial period. Watch videos, solve tests, and then decide if you want to pay"
+      }
+    }
+  },
+
+  "howItWorks": {
+    "header": {
+      "eyebrow": "How it Works",
+      "title": "3 Simple Steps to <brand>Crack</brand> Teaching <brand>Exam</brand>",
+      "subtitle": "Follow the 3-step process to get successful in the exam"
+    },
+
+    "steps": {
+      "step1": {
+        "title": "Start FREE on Clear Cutoff",
+        "description": "Create your Free Account & Get Started!",
+        "details": "Register with your phone number in seconds. Get instant access to all study materials and test resources.",
+        "button": "Get Started",
+        "cardTitle": "Start for FREE"
+      },
+
+      "step2": {
+        "title": "Learn with Videos, Notes & Mini-Tests",
+        "description": "Learn with Videos, Notes & Mini-Tests!",
+        "details": "Master every subject with topic-wise video lectures, revision notes, and mini-tests to reinforce your learning.",
+        "button": "Start Learning",
+        "cardTitle": "Video & Notes"
+      },
+
+      "step3": {
+        "title": "Test Series with PYQs",
+        "description": "Practice with Sectional & Full-Length Tests!",
+        "details": "Boost your confidence with PYQ-based sectional and full-length papers in both Hindi & English.",
+        "button": "Give a Test"
+      }
+    }
+  },
+
+  "teachingExamsSection": {
+    "header": {
+      "eyebrow": "Prepare for All Teaching Exams",
+      "title": "All Teaching Exams at One Place!",
+      "subtitle": "Explore Complete Courses & Test Series for All Teaching Exams and get started for FREE."
+    },
+
+    "examCard": {
+      "badge": {
+        "available": "Course + Test Series",
+        "comingSoon": "Coming Soon"
+      },
+      "title": "HTET 2025",
+      "location": "Haryana",
+      "rating": "{rating} ({count} ratings)",
+      "buttons": {
+        "startFree": "Start for FREE",
+        "viewDetails": "View More Details"
+      }
+    },
+
+    "stats": {
+      "studentsUsed": "Used by {count} students to clear {examName} exams.",
+      "description": "Join thousands of successful {examName} aspirants who chose smart, affordable learning over expensive coaching!",
+      "averageRating": "{rating} Average Rating by our Students!"
+    }
+  },
+
+  "trustedExamsSection": {
+    "header": {
+      "title": "Trusted by <brand>{count}</brand> students to clear multiple {examName} exams across India"
+    },
+
+    "exams": {
+      "htet": {
+        "name": "HTET",
+        "location": "Haryana"
+      },
+      "reet": {
+        "name": "REET",
+        "location": "Rajasthan"
+      },
+      "ctet": {
+        "name": "CTET",
+        "location": "India"
+      },
+      "btet": {
+        "name": "BTET",
+        "location": "Bihar"
+      },
+      "mptet": {
+        "name": "MPTET",
+        "location": "Madhya Pradesh"
+      },
+      "hptet": {
+        "name": "HPTET",
+        "location": "Himachal Pradesh"
+      },
+      "uptet": {
+        "name": "UPTET",
+        "location": "Uttar Pradesh"
+      },
+      "ptet": {
+        "name": "PTET",
+        "location": "Punjab"
+      }
+    },
+
+    "footer": {
+      "text": "Preparing for other exams? Check <brand>All Teaching Exams</brand> by Clear Cutoff!",
+      "cta": "View all Courses & Test Series!"
+    }
+  },
+
+  "successStoriesSection": {
+    "header": {
+      "eyebrow": "Loved by Thousands of Teaching Aspirants",
+      "title": "<brand>Success</brand> Stories of our <brand>Students</brand>",
+      "subtitle": "Join thousands of students who have improved their scores with our PYQs, mini-tests, & guidance!"
+    },
+
+    "featuredReview": {
+      "rating": "{rating}",
+      "reviewsText": "from {count} reviews",
+      "cta": "Sign Up & Improve Your Score"
+    },
+
+    "testimonials": {
+      "default": {
+        "name": "Angela Moss",
+        "role": "Project Manager at Howl.com",
+        "text": "\"This app has completely changed the way I organize my day.\""
+      }
+    },
+
+    "stats": {
+      "students": {
+        "value": "{count}",
+        "label": "Students on Clear Cutoff"
+      },
+      "rank": {
+        "value": "#1",
+        "label": "Number 1 choice of TET Exams"
+      }
+    }
+  },
+
+  "faqSection": {
+    "header": {
+      "eyebrow": "Got Questions? We've Got Answers!",
+      "title": "Frequently Asked <brand>Questions</brand>",
+      "subtitle": "Everything you need to know before starting your preparation with Clear Cutoff."
+    },
+
+    "categories": {
+      "refund": "Refund Guarantee",
+      "general": "General",
+      "courses": "Courses & Tests",
+      "payments": "Payments",
+      "mentorship": "Mentorship"
+    },
+
+    "featured": {
+      "title": "Is Clear Cutoff enough to Clear Exams?",
+      "description": "Yes, if you focus on smart practice, revision, and exam readiness.",
+      "points": [
+        "Practice high-quality PYQs and exam-level questions",
+        "Strengthen concepts through test analysis",
+        "Identify weak areas using detailed performance insights",
+        "Learn smart for FREE and decide later",
+        "100% refund guarantee if you complete the course and don’t pass"
+      ]
+    },
+
+    "questions": {
+      "general": [
+        {
+          "q": "What is Clear Cutoff, and how can it help me crack REET, HTET, or CTET?",
+          "a": "Clear Cutoff is a smart exam preparation platform designed for teaching exams. It provides structured learning, practice tests, PYQs, revision tools, and performance analytics to help you clear exams faster."
+        },
+        {
+          "q": "Do I get certification?",
+          "a": "Yes. You receive a completion certificate after finishing the course and tests."
+        },
+        {
+          "q": "Is this an interactive lesson?",
+          "a": "Yes. Lessons include quizzes, mini-tests, and performance tracking for active learning."
+        }
+      ],
+
+      "refund": [
+        {
+          "q": "What is the refund policy?",
+          "a": "If you complete the course requirements and still don’t clear the exam, you are eligible for a 100% refund."
+        }
+      ],
+
+      "courses": [],
+      "payments": [],
+      "mentorship": []
+    }
+  },
+
+  "comparisonSection": {
+    "header": {
+      "eyebrow": "Clear Cutoff v/s Coaching Centers",
+      "title": "All Subjects, Endless Practice!",
+      "subtitle": "Save money, study anytime, and get all the practice you need—without going to coaching centers!"
+    },
+
+    "table": {
+      "columns": {
+        "comparison": "Comparison",
+        "coaching": "Coaching Center",
+        "product": "Clear Cutoff"
+      },
+
+      "rows": {
+        "pricing": {
+          "label": "Affordable Pricing",
+          "coaching": "Fees ₹20,000 + (per course)",
+          "product": "₹999 (Full Access)"
+        },
+
+        "subjects": {
+          "label": "All Subjects Covered",
+          "coaching": "Limited Subject Options",
+          "product": "All Subjects in One Place"
+        },
+
+        "practice": {
+          "label": "Unlimited Practice Tests",
+          "coaching": "Limited Tests; Mostly in Class",
+          "product": "Mini Tests + Sectional Tests + PYQs"
+        },
+
+        "refund": {
+          "label": "100% Refund Guarantee",
+          "coaching": "No Refund Policy",
+          "product": "Full-refund if you complete & don't pass"
+        },
+
+        "examReady": {
+          "label": "Exam Ready",
+          "coaching": "Mostly theory; more focus on teaching",
+          "product": "Focus on PYQs & Exam Pattern"
+        },
+
+        "validity": {
+          "label": "Subscription Validity",
+          "coaching": "Only for Course Duration",
+          "product": "1-Year Full Access"
+        },
+
+        "extraCharges": {
+          "label": "Extra Charges?",
+          "coaching": "Pay Extra for Notes & Study Material",
+          "product": "FREE Notes & Study Material!"
+        }
+      }
+    },
+
+    "footer": {
+      "note": "Comparison based on common coaching center practices"
+    }
+  },
+
+  "pricingSection": {
+    "header": {
+      "eyebrow": "Simple. Transparent. Affordable.",
+      "titleForAll": "<brand>One</brand> Price, <brand>Everything</brand> Included!",
+      "titleForSingle": "Affordable Chance to Clear {examName}",
+      "subtitle": "One-time payment. 1-year access. Everything you need to pass on your first attempt."
+    },
+
+    "guarantee": {
+      "badge": "100% MONEY BACK",
+      "text": "Get <brand>100% refund</brand> if you don't clear exam!",
+      "subtext": "No risk, Only Result."
+    },
+
+    "plans": {
+      "card": {
+        "tagline": "Best for power users and team.",
+        "price": "₹ {price}",
+        "billing": "one-year subscription",
+        "badge": "MOST POPULAR",
+
+        "features": {
+          "feedback": {
+            "title": "Feedback <brand>+ Voting System</brand>",
+            "description": "Collect, organize, and prioritize user feedback."
+          },
+          "analytics": {
+            "title": "Advanced Insights",
+            "description": "Basic analytics and user feedback management."
+          },
+          "leaderboard": {
+            "title": "Public Leaderboard",
+            "description": "Showcase the user who contributes the most."
+          },
+          "roadmap": {
+            "title": "Public Roadmap",
+            "description": "Share your progress and what's coming next."
+          },
+          "updates": {
+            "title": "Hyper-regular Updates",
+            "description": "Stay up to date freely with new features."
+          }
+        },
+        "moreDescription": "More description here",
+        "cta": "Start for FREE"
+      }
+    },
+
+    "stats": {
+      "studentsUsed": "Used by <brand>{count}</brand> students to clear {examName} exams.",
+      "description": "Join thousands of successful {examName} aspirants who chose smart, affordable learning over expensive coaching!",
+      "averageRating": "<brand>{rating}</brand>  Average Rating by our Students!"
+    }
+  },
+
+  "comparison": {
+    "header": {
+      "eyebrow": "Clear Cutoff v/s Coaching Centers",
+      "title": "<brand>All</brand> Subjects, <brand>Endless</brand> Practice!",
+      "subtitle": "Save money, study anytime, and get all the practice you need—without going to coaching centers!"
+    },
+
+    "columns": {
+      "comparison": "Comparison",
+      "coaching": "Coaching Center"
+    },
+
+    "rows": {
+      "pricing": {
+        "label": "<brand>Affordable Pricing</brand>",
+        "coaching": "Fees ₹20,000+ (per course)",
+        "app": "<brand>₹999</brand> (Full Access)"
+      },
+
+      "subjects": {
+        "label": "<brand>All Subjects Covered</brand>",
+        "coaching": "Limited Subject Options",
+        "app": "<brand>All Subjects</brand> in One Place"
+      },
+
+      "practice": {
+        "label": "<brand>Unlimited Practice Tests</brand>",
+        "coaching": "Limited Tests; Mostly in Class",
+        "app": "Mini Tests + <brand>Sectional Tests</brand> + PYQs"
+      },
+
+      "refund": {
+        "label": "<brand>100% Refund Guarantee</brand>",
+        "coaching": "No Refund Policy",
+        "app": "<brand>Full-refund</brand> if you complete & don’t pass"
+      },
+
+      "ready": {
+        "label": "<brand>Exam Ready</brand>",
+        "coaching": "Mostly theory; more focus on teaching",
+        "app": "Focus on PYQs & <brand>Exam Pattern</brand>"
+      },
+
+      "validity": {
+        "label": "<brand>Subscription Validity</brand>",
+        "coaching": "Only for Course Duration",
+        "app": "<brand>1-Year</brand> Full Access"
+      },
+
+      "extras": {
+        "label": "<brand>Extra Charges?</brand>",
+        "coaching": "Pay Extra for Notes & Study Material",
+        "app": "<brand>FREE Notes</brand> & Study Material!"
+      }
+    },
+
+    "footer": "Comparison based on common coaching center practices"
+  },
+
   "Error": {
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
     "title": "Something went wrong!"
@@ -44,43 +460,6 @@
     "title": "Pathnames"
   },
 
-  "Header": {
-    "logo": "LMS.io",
-    "features": "Features",
-    "pricing": "Pricing",
-    "contact": "Contact",
-    "login": "Login",
-    "signup": "Sign Up"
-  },
-  "Hero": {
-    "headline": "Elevate Your Learning Experience",
-    "subheadline": "The All-in-One Learning Management System for modern education.",
-    "cta_start": "Start Learning Today",
-    "cta_demo": "Request a Demo"
-  },
-  "Features": {
-    "title": "Why Choose LMS.io?",
-    "feature1_title": "Intuitive Course Creation",
-    "feature1_description": "Build engaging courses with rich media, quizzes, and assignments.",
-    "feature2_title": "Robust User Management",
-    "feature2_description": "Effortlessly manage students, instructors, and groups with roles and permissions.",
-    "feature3_title": "Advanced Analytics",
-    "feature3_description": "Track progress, identify trends, and measure learning outcomes.",
-    "feature4_title": "Seamless Integrations",
-    "feature4_description": "Connect with your favorite tools for a streamlined workflow."
-  },
-  "Testimonials": {
-    "title": "What Our Users Say",
-    "quote1": "LMS.io transformed how we deliver online education. The students love it!",
-    "author1": "Dr. Emily R., University Professor",
-    "quote2": "Easy to use for both instructors and learners. Highly recommend for any institution.",
-    "author2": "John D., Corporate Trainer"
-  },
-  "CTA": {
-    "headline": "Ready to Transform Your Learning?",
-    "subheadline": "Join thousands of educators and learners empowering their future with LMS.io.",
-    "cta_button": "Get Started Free"
-  },
   "Footer": {
     "copy": "© 2023 LMS.io. All rights reserved.",
     "privacy": "Privacy Policy",

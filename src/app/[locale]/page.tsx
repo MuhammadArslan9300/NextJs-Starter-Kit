@@ -1,13 +1,9 @@
 import { Locale, useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";
-import Image from "next/image";
-import Header from "@/components/Header";
-import HeroSection from "@/components/HeroSection";
-import FeaturesSection from "@/components/FeaturesSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
-import CtaSection from "@/components/CtaSection";
-import Footer from "@/components/Footer";
+import Header from "@/components/layout/headers/Header";
+import FooterWrap from "@/components/layout/FooterWrap";
+import LandingPage from "@/components/pages/LandingPage";
 
 export default function Home({ params }: PageProps<"/[locale]">) {
   const { locale } = use(params);
@@ -20,13 +16,8 @@ export default function Home({ params }: PageProps<"/[locale]">) {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow">
-        <HeroSection />
-        <FeaturesSection />
-        <TestimonialsSection />
-        <CtaSection  />
-      </main>
-      <Footer />
+      <LandingPage />
+      <FooterWrap />
     </div>
   );
 }

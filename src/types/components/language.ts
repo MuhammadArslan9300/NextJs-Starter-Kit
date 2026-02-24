@@ -1,3 +1,3 @@
-export type AppLocale = "en" | "ur";
+export type AppLocale = "en" | "hi";
 
-export const locales: AppLocale[] = ["en", "ur"];
+export const locales: AppLocale[] = ["en", "hi"];
